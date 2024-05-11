@@ -1,0 +1,48 @@
+
+    :root {
+      --first-hue: 207;
+      --sat: 90%;
+      --lig: 75%;
+      --second-hue: 219;
+      --body-color: hsl(var(--second-hue), 48%, 8%);
+    }
+    body {
+      background-color: var(--body-color);
+        backdrop-filter: blur(2px);
+    }
+
+    .greeting {
+      font-size: 20px;
+    }
+    .datetime {
+      font-size: 18px;
+      color: aliceblue;
+    }
+    .carousel-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      border: 3px solid;
+    }
+    
+
+    #time{
+      margin-right: 25px;
+    }
+
+    
+    .navbar {
+        backdrop-filter: blur(10px);
+    }
+    
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+    .card {
+      max-width: 335px; 
+      margin-bottom: 20px; 
+    }

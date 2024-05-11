@@ -1,0 +1,70 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+  --first-hue: 207;
+  --sat: 90%;
+  --lig: 75%;
+  --second-hue: 219;
+  
+  --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%);
+  --title-color: hsl(var(--second-hue), 15%, 95%);
+  --text-color: hsl(var(--second-hue), 8%, 75%);
+  --text-color-light: hsl(var(--second-hue), 4%, 55%);
+  --body-color: hsl(var(--second-hue), 48%, 8%);
+  --container-color: hsl(var(--second-hue), 32%, 12%);}
+ 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--body-color);
+            color: #fff;
+        }
+        header {
+            background-color: var(--body-color);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        main {
+            padding: 2rem;
+        }
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+        h2 {
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: #006db15f;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            margin-bottom: 0.5rem;
+        }
+        strong {
+            font-weight: bold;
+        }
+        footer {
+            background-color: var(--body-color);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
